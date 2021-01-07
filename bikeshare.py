@@ -130,8 +130,8 @@ def station_stats(df):
     common_end_station = df['End Station'].value_counts().nlargest(1)
 
     # TO DO: display most frequent combination of start station and end station trip
-    df['Start_end_station'] = df['Start Station'] + df['End Station']
-    common_station_combination = df['Start_end_station'].value_counts().nlargest(1)
+     # df['Start_end_station'] = df['Start Station'] + df['End Station']
+    common_station_combination = df.groupby(['Start Station','End Station'])['Trip Duration'].value_counts().nlargest(1)
     print('Most commonly Start station is:\n', common_Start_station)
     print('Most commonly End Station is:\n', common_end_station)
     print('Most most frequent combination of start station and end station trip is:\n', common_station_combination,'\n')
