@@ -13,7 +13,9 @@ A text editor, like Sublime or Atom <Br>
 A terminal application (Terminal on Mac and Linux or Cygwin on Windows) <Br>
 
 ### Files used
-chicago.csv, new_york_city.csv, washington.csv
+chicago.csv <Br>
+new_york_city.csv <Br>
+washington.csv <Br>
 
 ### Credits
 https://github.com/GoogleChrome/lighthouse
