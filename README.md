@@ -5,12 +5,15 @@
 Explore US Bikeshare Data
 
 ### Description
-Use Phyton to understand U.S. bikeshare data. Calculate statistics and build an interactive environment where a user chooses the data and filter for a dataset to analyze.
+In this project, with use of Python and data provided by Motivate, a bike share system provider for many major cities in the United States, you will  uncover bike share usage patterns in three large cities: Chicago, New York City, and Washington, DC.
+
+### Software requirement
+Python 3, NumPy, and pandas installed using Anaconda <Br>
+A text editor, like Sublime or Atom <Br>
+A terminal application (Terminal on Mac and Linux or Cygwin on Windows) <Br>
 
 ### Files used
-chicago.csv
-new_york_city.csv
-washington.csv
+chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
 https://github.com/GoogleChrome/lighthouse
